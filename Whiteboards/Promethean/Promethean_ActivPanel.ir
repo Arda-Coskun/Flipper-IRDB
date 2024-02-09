@@ -7,6 +7,12 @@ protocol: NEC
 address: 01 00 00 00
 command: 18 00 00 00
 # 
+name: Home
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0D 00 00 00 47 00 00 00 55 00 00 00 
+# 
 name: VOL+
 type: parsed
 protocol: NEC
